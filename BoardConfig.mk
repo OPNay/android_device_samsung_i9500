@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/i9500
+LOCAL_PATH := device/samsung/jalte
 
 BOARD_VENDOR := samsung
 
@@ -22,7 +22,7 @@ BOARD_VENDOR := samsung
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ja3g,i9500,GT-I9500
+TARGET_OTA_ASSERT_DEVICE := jalte,e300,SHV-E300
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := universal5410
@@ -45,8 +45,8 @@ TARGET_CPU_VARIANT := cortex-a15
 # Kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-TARGET_KERNEL_CONFIG := cyanogenmod_i9500_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/exynos5410
+TARGET_KERNEL_CONFIG := cyanogenmod_jalte_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/jalte
 
 # Audio
 BOARD_USES_LIBMEDIA_WITH_AUDIOPARAMETER := true
@@ -127,7 +127,7 @@ BOARD_RECOVERY_SWIPE := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/samsung/i9500/sepolicy
+    device/samsung/jalte/sepolicy
 
 BOARD_SEPOLICY_UNION := \
     file_contexts \
@@ -146,4 +146,4 @@ BOARD_BATTERY_DEVICE_NAME := battery
 #TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAL_PATH)
 
 # inherit from the proprietary version
--include vendor/samsung/i9500/BoardConfigVendor.mk
+-include vendor/samsung/jalte/BoardConfigVendor.mk
