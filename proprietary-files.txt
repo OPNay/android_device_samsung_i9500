@@ -3,6 +3,9 @@ vendor/firmware/srp_cga.bin
 vendor/firmware/srp_data.bin
 vendor/firmware/srp_vliw.bin
 
+vendor/etc/audio_effects.conf
+vendor/etc/audio_policy.conf
+
 # Bluetooth
 vendor/firmware/bcm4335.hcd
 vendor/firmware/bcm4335_A0.hcd
