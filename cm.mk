@@ -18,4 +18,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=jalte \
     TARGET_DEVICE=jalte \
     BUILD_FINGERPRINT="samsung/jalteskt/jalteskt:4.4.2/KOT49H/E300SKSUFND1:user/release-keys" \
-    PRIVATE_BUILD_DESC=jalteskt-user 4.4.2 KOT49H E300SKSUFND1 release-keys"
+    PRIVATE_BUILD_DESC="jalteskt-user 4.4.2 KOT49H E300SKSUFND1 release-keys"
