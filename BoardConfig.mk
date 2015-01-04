@@ -52,7 +52,8 @@ TARGET_KERNEL_SOURCE := kernel/samsung/jalte
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Audio
-BOARD_USES_LIBMEDIA_WITH_AUDIOPARAMETER := true
+HAVE_HTC_AUDIO_DRIVER := true
+BOARD_USES_GENERIC_AUDIO := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
